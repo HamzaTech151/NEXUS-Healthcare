@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXUS Healthcare · Premium Care</title>
+    <meta name="description" content="NEXUS Healthcare - Redefining patient care with cutting-edge medical technology and compassionate service." />
+    <meta name="keywords" content="healthcare, hospital, emergency care, cardiology, orthopedics, maternity" />
+    <meta name="author" content="NEXUS Healthcare" />
+    <meta property="og:title" content="NEXUS Healthcare · Redefining Care" />
+    <meta property="og:description" content="Where cutting-edge medical technology meets human-centered care." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="preloader" id="preloader">
+        <div class="loader-ring"></div>
+        <div class="loader-text">✦ NEXUS</div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+            <h3 id="modalTitle">Application Submitted!</h3>
+            <p id="modalMessage">We'll review your profile and get back to you within 48 hours.</p>
+            <button class="modal-btn" id="modalBtn">OK</button>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                NEXUS<span>Health</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#departments">Departments</a>
+                <a href="#blog">Blog</a>
+                <a href="#careers">Careers</a>
+                <a href="#contact" class="nav-cta">Book Now</a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-bg-particles" id="particles"></div>
+        
+        <div class="hero-floating-icons">
+            <i class="fas fa-heartbeat"></i>
+            <i class="fas fa-stethoscope"></i>
+            <i class="fas fa-brain"></i>
+            <i class="fas fa-lungs"></i>
+            <i class="fas fa-microscope"></i>
+            <i class="fas fa-ambulance"></i>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    Smart Healthcare 
+                    <span class="badge-new">NEW</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Precision</span> Meets<br />
+                    <span class="hero-highlight">Compassion</span>
+                </h1>
+                <p class="hero-desc">
+                    Where cutting-edge medical technology meets human-centered care. 
+                    We're redefining healthcare for the modern world.
+                </p>
+                <div class="hero-actions">
+                    <a href="#services" class="btn-primary">
+                        <i class="fas fa-stethoscope"></i> Explore Services
+                        <span class="btn-glow"></span>
+                    </a>
+                    <a href="#appointment" class="btn-outline-primary">
+                        <i class="fas fa-calendar-check"></i> Book Appointment
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-block">
+                        <span class="stat-number" data-target="15000">0</span>
+                        <span class="stat-label">Patients Treated</span>
+                    </div>
+                    <div class="stat-block">
+                        <span class="stat-number" data-target="98">0</span>
+                        <span class="stat-label">% Satisfaction</span>
+                    </div>
+                    <div class="stat-block">
+                        <span class="stat-number" data-target="45">0</span>
+                        <span class="stat-label">Specialties</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <div class="hero-image-wrapper">
+                        <img 
+                            src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop&crop=center" 
+                            alt="Modern Healthcare Facility"
+                            loading="lazy"
+                            class="hero-main-image"
+                        />
+                        <div class="hero-image-overlay"></div>
+                    </div>
+                    <div class="floating-card card-1">
+                        <i class="fas fa-user-md"></i>
+                        <div>
+                            <h4>150+</h4>
+                            <p>Expert Physicians</p>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-calendar-check"></i>
+                        <div>
+                            <h4>98%</h4>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>24/7</h4>
+                            <p>Emergency Care</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="why-choose-us" id="main">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why NEXUS</span>
+                <h2 class="section-title">Why Choose <span class="gradient-text">NEXUS Healthcare</span></h2>
+                <p class="section-sub">Experience healthcare excellence at every level</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-delay="0">
+                    <div class="why-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Accredited Excellence</h3>
+                    <p>Joint Commission International (JCI) accredited with 98% patient satisfaction rate</p>
+                    <div class="why-stat">98%</div>
+                </div>
+                <div class="why-card" data-delay="100">
+                    <div class="why-icon" style="background: linear-gradient(135deg, #3498db20, #3498db10);">
+                        <i class="fas fa-microscope" style="color: #3498db;"></i>
+                    </div>
+                    <h3>Cutting-Edge Technology</h3>
+                    <p>AI-powered diagnostics, robotic surgery, and advanced imaging systems</p>
+                    <div class="why-stat">50+</div>
+                </div>
+                <div class="why-card" data-delay="200">
+                    <div class="why-icon" style="background: linear-gradient(135deg, #2ecc7120, #2ecc7110);">
+                        <i class="fas fa-users" style="color: #2ecc71;"></i>
+                    </div>
+                    <h3>Expert Medical Team</h3>
+                    <p>150+ board-certified physicians across 45+ specialties</p>
+                    <div class="why-stat">150+</div>
+                </div>
+                <div class="why-card" data-delay="300">
+                    <div class="why-icon" style="background: linear-gradient(135deg, #e67e2220, #e67e2210);">
+                        <i class="fas fa-heart" style="color: #e67e22;"></i>
+                    </div>
+                    <h3>Compassionate Care</h3>
+                    <p>Patient-centered approach with personalized treatment plans</p>
+                    <div class="why-stat">4.9★</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-expandable" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Comprehensive <span class="gradient-text">Healthcare</span></h2>
+                <p class="section-sub">Click on any service to explore detailed information</p>
+            </div>
+
+            <div class="services-accordion">
+                <div class="service-accordion-item">
+                    <div class="service-accordion-header" data-service="emergency">
+                        <div class="service-accordion-icon" style="background: #e74c3c20; color: #e74c3c;">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="service-accordion-info">
+                            <h3>Emergency & Critical Care</h3>
+                            <p>24/7 emergency services with rapid response teams</p>
+                        </div>
+                        <div class="service-accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="service-accordion-body">
+                        <div class="service-detail-grid">
+                            <div class="service-detail-image" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="service-detail-content">
+                                <h4>Comprehensive Emergency Care</h4>
+                                <p>Our emergency department is equipped with state-of-the-art technology and staffed by board-certified emergency physicians, nurses, and support staff available 24/7.</p>
+                                <div class="service-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #e74c3c;"></i>
+                                        <div>
+                                            <strong>Level 1 Trauma Center</strong>
+                                            <span>Advanced trauma care for critical injuries</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #e74c3c;"></i>
+                                        <div>
+                                            <strong>ICU & NICU</strong>
+                                            <span>Intensive care for adults and newborns</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #e74c3c;"></i>
+                                        <div>
+                                            <strong>Stroke & Heart Attack Care</strong>
+                                            <span>Rapid response protocols for cardiac emergencies</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#contact" class="btn-primary service-cta">
+                                    <i class="fas fa-calendar-check"></i> Emergency Contact
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item">
+                    <div class="service-accordion-header" data-service="diagnostic">
+                        <div class="service-accordion-icon" style="background: #3498db20; color: #3498db;">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div class="service-accordion-info">
+                            <h3>Diagnostic & Laboratory</h3>
+                            <p>Cutting-edge diagnostic services for accurate results</p>
+                        </div>
+                        <div class="service-accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="service-accordion-body">
+                        <div class="service-detail-grid">
+                            <div class="service-detail-image" style="background: linear-gradient(135deg, #3498db, #2980b9);">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <div class="service-detail-content">
+                                <h4>Advanced Diagnostic Services</h4>
+                                <p>Our diagnostic center offers the latest imaging and laboratory technologies, providing rapid and accurate results to support informed treatment decisions.</p>
+                                <div class="service-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #3498db;"></i>
+                                        <div>
+                                            <strong>MRI & CT Scans</strong>
+                                            <span>High-resolution imaging for accurate diagnosis</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #3498db;"></i>
+                                        <div>
+                                            <strong>Full Laboratory Services</strong>
+                                            <span>Comprehensive blood work and pathology</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #3498db;"></i>
+                                        <div>
+                                            <strong>Genetic Testing</strong>
+                                            <span>Advanced genetic screening for personalized care</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#contact" class="btn-primary service-cta">
+                                    <i class="fas fa-calendar-check"></i> Schedule a Test
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item">
+                    <div class="service-accordion-header" data-service="surgical">
+                        <div class="service-accordion-icon" style="background: #8e44ad20; color: #8e44ad;">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <div class="service-accordion-info">
+                            <h3>Surgical Services</h3>
+                            <p>Minimally invasive and robotic-assisted procedures</p>
+                        </div>
+                        <div class="service-accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="service-accordion-body">
+                        <div class="service-detail-grid">
+                            <div class="service-detail-image" style="background: linear-gradient(135deg, #8e44ad, #6c3483);">
+                                <i class="fas fa-syringe"></i>
+                            </div>
+                            <div class="service-detail-content">
+                                <h4>Advanced Surgical Care</h4>
+                                <p>Our surgical team performs over 5,000 procedures annually using the latest minimally invasive and robotic-assisted techniques for faster recovery and better outcomes.</p>
+                                <div class="service-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #8e44ad;"></i>
+                                        <div>
+                                            <strong>Robotic Surgery</strong>
+                                            <span>Precision surgery with da Vinci robotic system</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #8e44ad;"></i>
+                                        <div>
+                                            <strong>Orthopedic & Neuro Surgery</strong>
+                                            <span>Specialized procedures for bones and nervous system</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#contact" class="btn-primary service-cta">
+                                    <i class="fas fa-calendar-check"></i> Consult a Surgeon
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item">
+                    <div class="service-accordion-header" data-service="maternity">
+                        <div class="service-accordion-icon" style="background: #2ecc7120; color: #2ecc71;">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                        <div class="service-accordion-info">
+                            <h3>Maternity & Pediatrics</h3>
+                            <p>Comprehensive care for mothers and children</p>
+                        </div>
+                        <div class="service-accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="service-accordion-body">
+                        <div class="service-detail-grid">
+                            <div class="service-detail-image" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
+                                <i class="fas fa-baby"></i>
+                            </div>
+                            <div class="service-detail-content">
+                                <h4>Family-Centered Care</h4>
+                                <p>Our maternity and pediatric departments provide compassionate, family-centered care from pregnancy through childhood, ensuring the health and well-being of your family.</p>
+                                <div class="service-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #2ecc71;"></i>
+                                        <div>
+                                            <strong>Prenatal & Postnatal Care</strong>
+                                            <span>Comprehensive care for mothers before and after birth</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #2ecc71;"></i>
+                                        <div>
+                                            <strong>Neonatal ICU (NICU)</strong>
+                                            <span>Specialized care for premature and sick newborns</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #2ecc71;"></i>
+                                        <div>
+                                            <strong>Pediatric Specialists</strong>
+                                            <span>Children's health experts in every specialty</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#contact" class="btn-primary service-cta">
+                                    <i class="fas fa-calendar-check"></i> Schedule Appointment
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item">
+                    <div class="service-accordion-header" data-service="cardiology">
+                        <div class="service-accordion-icon" style="background: #e67e2220; color: #e67e22;">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="service-accordion-info">
+                            <h3>Cardiology & Heart Care</h3>
+                            <p>Comprehensive heart care from prevention to surgery</p>
+                        </div>
+                        <div class="service-accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="service-accordion-body">
+                        <div class="service-detail-grid">
+                            <div class="service-detail-image" style="background: linear-gradient(135deg, #e67e22, #d35400);">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="service-detail-content">
+                                <h4>Complete Heart Care</h4>
+                                <p>Our cardiology department offers a full spectrum of heart care services, from preventive cardiology to complex surgical interventions, using the latest technology and techniques.</p>
+                                <div class="service-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #e67e22;"></i>
+                                        <div>
+                                            <strong>Preventive Cardiology</strong>
+                                            <span>Heart health screenings and risk assessment</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #e67e22;"></i>
+                                        <div>
+                                            <strong>Interventional Cardiology</strong>
+                                            <span>Minimally invasive heart procedures</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #e67e22;"></i>
+                                        <div>
+                                            <strong>Cardiac Surgery</strong>
+                                            <span>Bypass, valve replacement, and more</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#contact" class="btn-primary service-cta">
+                                    <i class="fas fa-calendar-check"></i> Book Heart Screening
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-accordion-item">
+                    <div class="service-accordion-header" data-service="orthopedics">
+                        <div class="service-accordion-icon" style="background: #1abc9c20; color: #1abc9c;">
+                            <i class="fas fa-bone"></i>
+                        </div>
+                        <div class="service-accordion-info">
+                            <h3>Orthopedics</h3>
+                            <p>Comprehensive bone and joint care</p>
+                        </div>
+                        <div class="service-accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="service-accordion-body">
+                        <div class="service-detail-grid">
+                            <div class="service-detail-image" style="background: linear-gradient(135deg, #1abc9c, #16a085);">
+                                <i class="fas fa-bone"></i>
+                            </div>
+                            <div class="service-detail-content">
+                                <h4>Complete Orthopedic Care</h4>
+                                <p>Our orthopedic team provides comprehensive care for bones, joints, and muscles, using both surgical and non-surgical treatments to restore mobility and quality of life.</p>
+                                <div class="service-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #1abc9c;"></i>
+                                        <div>
+                                            <strong>Joint Replacement</strong>
+                                            <span>Knee, hip, and shoulder replacement surgery</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #1abc9c;"></i>
+                                        <div>
+                                            <strong>Sports Medicine</strong>
+                                            <span>Injury prevention and treatment for athletes</span>
+                                        </div>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-check-circle" style="color: #1abc9c;"></i>
+                                        <div>
+                                            <strong>Fracture Care</strong>
+                                            <span>Treatment for broken bones and injuries</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#contact" class="btn-primary service-cta">
+                                    <i class="fas fa-calendar-check"></i> Consult an Orthopedic
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="departments" id="departments">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Departments</span>
+                <h2 class="section-title">Centers of <span class="gradient-text">Excellence</span></h2>
+                <p class="section-sub">World-class specialty departments delivering exceptional care</p>
+            </div>
+            <div class="departments-grid-2x6" id="deptContainer"></div>
+        </div>
+    </section>
+
+    <section class="appointment-section" id="appointment">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Book Appointment</span>
+                <h2 class="section-title">Schedule Your <span class="gradient-text">Visit</span></h2>
+                <p class="section-sub">Choose a date and time that works best for you</p>
+            </div>
+            <div class="appointment-wrapper">
+                <div class="appointment-calendar">
+                    <div class="calendar-header">
+                        <button class="calendar-nav" id="prevMonth"><i class="fas fa-chevron-left"></i></button>
+                        <h3 id="currentMonth">January 2026</h3>
+                        <button class="calendar-nav" id="nextMonth"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="calendar-weekdays">
+                        <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+                    </div>
+                    <div class="calendar-days" id="calendarDays"></div>
+                    <div class="time-slots">
+                        <h4>Available Time Slots</h4>
+                        <div class="time-slot-grid" id="timeSlots">
+                            <button class="time-slot">9:00 AM</button>
+                            <button class="time-slot">10:00 AM</button>
+                            <button class="time-slot">11:00 AM</button>
+                            <button class="time-slot">1:00 PM</button>
+                            <button class="time-slot">2:00 PM</button>
+                            <button class="time-slot">3:00 PM</button>
+                            <button class="time-slot">4:00 PM</button>
+                            <button class="time-slot">5:00 PM</button>
+                        </div>
+                    </div>
+                    <button class="btn-primary confirm-appointment">Confirm Appointment</button>
+                </div>
+                <div class="appointment-form-wrapper">
+                    <form class="appointment-form" id="appointmentForm">
+                        <h3>Patient Details</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required />
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Department</option>
+                                <option>Cardiology</option>
+                                <option>Orthopedics</option>
+                                <option>Neurology</option>
+                                <option>Pediatrics</option>
+                                <option>Emergency</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Doctor</option>
+                                <option>Dr. Sarah Johnson</option>
+                                <option>Dr. Michael Chen</option>
+                                <option>Dr. Emily Rodriguez</option>
+                                <option>Dr. James Williams</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary">Book Appointment <i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Health Blog</span>
+                <h2 class="section-title">Latest <span class="gradient-text">Health Insights</span></h2>
+                <p class="section-sub">Expert articles on health, wellness, and medical advancements</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #1f7a8c, #0b2a41);">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Cardiology</span>
+                        <h3>10 Signs You Should See a Cardiologist</h3>
+                        <p>Learn the warning signs of heart disease and when to seek expert care.</p>
+                        <div class="blog-meta">
+                            <span><i class="fas fa-user"></i> Dr. Sarah Johnson</span>
+                            <span><i class="fas fa-calendar"></i> Jan 15, 2026</span>
+                        </div>
+                        <a href="#" class="blog-link" onclick="return openBlog('cardiology')">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #8e44ad, #6c3483);">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Neuroscience</span>
+                        <h3>Understanding Migraines: Causes and Treatments</h3>
+                        <p>Discover the latest research on migraine prevention and treatment options.</p>
+                        <div class="blog-meta">
+                            <span><i class="fas fa-user"></i> Dr. James Williams</span>
+                            <span><i class="fas fa-calendar"></i> Jan 12, 2026</span>
+                        </div>
+                        <a href="#" class="blog-link" onclick="return openBlog('neurology')">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Pediatrics</span>
+                        <h3>Essential Vaccinations for Children in 2026</h3>
+                        <p>Stay informed about the recommended vaccine schedule for your child.</p>
+                        <div class="blog-meta">
+                            <span><i class="fas fa-user"></i> Dr. Emily Rodriguez</span>
+                            <span><i class="fas fa-calendar"></i> Jan 10, 2026</span>
+                        </div>
+                        <a href="#" class="blog-link" onclick="return openBlog('pediatrics')">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education-section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Patient Education</span>
+                <h2 class="section-title">Health <span class="gradient-text">Resources</span></h2>
+                <p class="section-sub">Empowering you with knowledge for better health decisions</p>
+            </div>
+            
+            <div class="education-grid-premium">
+                <div class="education-card-premium" onclick="openResource('guides')">
+                    <div class="education-card-icon" style="background: linear-gradient(135deg, #1f7a8c20, #1f7a8c10);">
+                        <i class="fas fa-book-medical" style="color: #1f7a8c;"></i>
+                    </div>
+                    <h3>Health Guides</h3>
+                    <p>Comprehensive guides on various health conditions and treatments</p>
+                    <div class="education-card-footer">
+                        <span class="education-tag">Free</span>
+                        <button class="education-btn" onclick="event.stopPropagation(); openResource('guides')">
+                            Explore Guides <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="education-card-premium" onclick="openResource('videos')">
+                    <div class="education-card-icon" style="background: linear-gradient(135deg, #8e44ad20, #8e44ad10);">
+                        <i class="fas fa-video" style="color: #8e44ad;"></i>
+                    </div>
+                    <h3>Video Library</h3>
+                    <p>Educational videos from our medical experts</p>
+                    <div class="education-card-footer">
+                        <span class="education-tag">Watch</span>
+                        <button class="education-btn" onclick="event.stopPropagation(); openResource('videos')">
+                            Watch Videos <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="education-card-premium" onclick="openResource('downloads')">
+                    <div class="education-card-icon" style="background: linear-gradient(135deg, #e67e2220, #e67e2210);">
+                        <i class="fas fa-file-pdf" style="color: #e67e22;"></i>
+                    </div>
+                    <h3>Downloadable Resources</h3>
+                    <p>Patient handouts, checklists, and treatment guides</p>
+                    <div class="education-card-footer">
+                        <span class="education-tag">PDF</span>
+                        <button class="education-btn" onclick="event.stopPropagation(); openResource('downloads')">
+                            Download Now <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="education-card-premium" onclick="openResource('faq')">
+                    <div class="education-card-icon" style="background: linear-gradient(135deg, #2ecc7120, #2ecc7110);">
+                        <i class="fas fa-question-circle" style="color: #2ecc71;"></i>
+                    </div>
+                    <h3>FAQ Section</h3>
+                    <p>Answers to the most commonly asked health questions</p>
+                    <div class="education-card-footer">
+                        <span class="education-tag">Help</span>
+                        <button class="education-btn" onclick="event.stopPropagation(); openResource('faq')">
+                            View FAQs <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="careers-section" id="careers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Careers</span>
+                <h2 class="section-title">Join Our <span class="gradient-text">Team</span></h2>
+                <p class="section-sub">Build your career at the forefront of healthcare innovation</p>
+            </div>
+            <div class="careers-grid">
+                <div class="career-card">
+                    <div class="career-icon"><i class="fas fa-user-md"></i></div>
+                    <h3>Physician - Cardiology</h3>
+                    <p>Full-time position for experienced cardiologist with AI experience</p>
+                    <div class="career-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> New York</span>
+                        <span><i class="fas fa-clock"></i> Full Time</span>
+                    </div>
+                    <button class="career-apply" data-job="Physician - Cardiology">Apply Now</button>
+                </div>
+                <div class="career-card">
+                    <div class="career-icon" style="background: linear-gradient(135deg, #3498db20, #3498db10); color: #3498db;"><i class="fas fa-robot"></i></div>
+                    <h3>Robotics Surgeon</h3>
+                    <p>Lead robotic surgery program with da Vinci system experience</p>
+                    <div class="career-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Boston</span>
+                        <span><i class="fas fa-clock"></i> Full Time</span>
+                    </div>
+                    <button class="career-apply" data-job="Robotics Surgeon">Apply Now</button>
+                </div>
+                <div class="career-card">
+                    <div class="career-icon" style="background: linear-gradient(135deg, #2ecc7120, #2ecc7110); color: #2ecc71;"><i class="fas fa-microscope"></i></div>
+                    <h3>Research Scientist</h3>
+                    <p>AI/ML research position in medical diagnostics</p>
+                    <div class="career-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> San Francisco</span>
+                        <span><i class="fas fa-clock"></i> Full Time</span>
+                    </div>
+                    <button class="career-apply" data-job="Research Scientist">Apply Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="career-application-section" id="careerApplication" style="display: none;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Apply Now</span>
+                <h2 class="section-title">Career <span class="gradient-text">Application</span></h2>
+                <p class="section-sub" id="applyingFor">Applying for: Position</p>
+            </div>
+            <div class="application-wrapper">
+                <form class="application-form" id="careerForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>First Name *</label>
+                            <input type="text" id="appFirstName" placeholder="Enter first name" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name *</label>
+                            <input type="text" id="appLastName" placeholder="Enter last name" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email Address *</label>
+                            <input type="email" id="appEmail" placeholder="Enter email address" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number *</label>
+                            <input type="tel" id="appPhone" placeholder="Enter phone number" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Current Location</label>
+                            <input type="text" id="appLocation" placeholder="City, Country" />
+                        </div>
+                        <div class="form-group">
+                            <label>Years of Experience *</label>
+                            <select id="appExperience" required>
+                                <option value="">Select experience</option>
+                                <option value="0-1">0-1 Years</option>
+                                <option value="1-3">1-3 Years</option>
+                                <option value="3-5">3-5 Years</option>
+                                <option value="5-10">5-10 Years</option>
+                                <option value="10+">10+ Years</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Current Company</label>
+                        <input type="text" id="appCompany" placeholder="Current employer (optional)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Why do you want to join NEXUS? *</label>
+                        <textarea id="appReason" rows="4" placeholder="Tell us why you're interested in this position and what you can bring to NEXUS..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Upload Resume/CV *</label>
+                        <div class="file-upload-wrapper">
+                            <input type="file" id="appResume" accept=".pdf,.doc,.docx" required />
+                            <div class="file-upload-placeholder">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <p>Click to upload your resume (PDF, DOC, DOCX)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="appConsent" required />
+                        <label for="appConsent">I confirm that the information provided is accurate and I agree to the privacy policy *</label>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary" id="cancelApplication">Cancel</button>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Submit Application
+                            <span class="btn-glow"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-premium" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Patient Stories</span>
+                <h2 class="section-title" style="color: white;">Real Stories, <span class="gradient-text" style="background: linear-gradient(135deg, #fff, #e6f3f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Real Lives</span></h2>
+                <p class="section-sub" style="color: rgba(255,255,255,0.8);">Hear from our patients about their journey to better health</p>
+            </div>
+
+            <div class="testimonial-carousel">
+                <div class="carousel-container" id="testimonialCarousel">
+                    <div class="testimonial-premium-card active">
+                        <div class="testimonial-premium-content">
+                            <div class="testimonial-premium-header">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Robert Thompson" loading="lazy" />
+                                <div>
+                                    <h4>Robert Thompson</h4>
+                                    <span>Cardiac Surgery Patient</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-premium-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The cardiac team at NEXUS saved my life. Their expertise and compassion made all the difference. I'm now living a full, healthy life."</p>
+                            <div class="testimonial-premium-footer">
+                                <span class="testimonial-tag">Cardiology</span>
+                                <span class="testimonial-date">2 months ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-premium-card">
+                        <div class="testimonial-premium-content">
+                            <div class="testimonial-premium-header">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Lisa Martinez" loading="lazy" />
+                                <div>
+                                    <h4>Lisa Martinez</h4>
+                                    <span>Maternity Patient</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-premium-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"From prenatal to delivery, the NEXUS maternity team provided exceptional care. They made me feel safe and supported throughout."</p>
+                            <div class="testimonial-premium-footer">
+                                <span class="testimonial-tag">Maternity</span>
+                                <span class="testimonial-date">3 months ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-premium-card">
+                        <div class="testimonial-premium-content">
+                            <div class="testimonial-premium-header">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face" alt="David Kim" loading="lazy" />
+                                <div>
+                                    <h4>David Kim</h4>
+                                    <span>Orthopedic Patient</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-premium-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"My knee replacement surgery was a complete success. The orthopedic team is world-class, and the recovery process was smooth."</p>
+                            <div class="testimonial-premium-footer">
+                                <span class="testimonial-tag">Orthopedics</span>
+                                <span class="testimonial-date">1 month ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-premium-card">
+                        <div class="testimonial-premium-content">
+                            <div class="testimonial-premium-header">
+                                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=100&h=100&fit=crop&crop=face" alt="Sarah Johnson" loading="lazy" />
+                                <div>
+                                    <h4>Sarah Johnson</h4>
+                                    <span>Diagnostic Patient</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-premium-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The AI-powered diagnostics at NEXUS detected my condition early. The genetic screening and advanced imaging gave me peace of mind."</p>
+                            <div class="testimonial-premium-footer">
+                                <span class="testimonial-tag">Diagnostics</span>
+                                <span class="testimonial-date">2 weeks ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-premium-card">
+                        <div class="testimonial-premium-content">
+                            <div class="testimonial-premium-header">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face" alt="Mark Davis" loading="lazy" />
+                                <div>
+                                    <h4>Mark Davis</h4>
+                                    <span>Surgical Patient</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-premium-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The robotic surgery at NEXUS was incredible. Minimal scarring and I was back to work in half the expected time."</p>
+                            <div class="testimonial-premium-footer">
+                                <span class="testimonial-tag">Surgery</span>
+                                <span class="testimonial-date">3 weeks ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn carousel-prev" id="testimonialPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-dots" id="testimonialDots"></div>
+                    <button class="carousel-btn carousel-next" id="testimonialNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-split" id="contact">
+        <div class="contact-split-left">
+            <div class="contact-split-content">
+                <span class="section-tag">Get in Touch</span>
+                <h2>Ready to Start Your <span class="gradient-text">Journey</span> to Health?</h2>
+                <p>Our team is here to help. Reach out and let us guide you to better health.</p>
+                <div class="contact-info-grid">
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Call Us</strong>
+                            <span>+1 (800) 555-0123</span>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <span>info@nexushealthcare.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location</strong>
+                            <span>123 Healthcare Blvd</span>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Hours</strong>
+                            <span>24/7 Emergency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-split-right">
+            <form class="contact-form-modern" id="contactForm">
+                <h3>Send a Message</h3>
+                <div class="form-group">
+                    <input type="text" id="fullName" placeholder="Full Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required />
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" />
+                </div>
+                <div class="form-group">
+                    <select id="subject">
+                        <option value="">Select Subject</option>
+                        <option value="emergency">Emergency</option>
+                        <option value="appointment">Schedule Appointment</option>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-submit" id="submitBtn">
+                    <i class="fas fa-paper-plane"></i> 
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-glow"></span>
+                </button>
+                <div class="form-success" id="formSuccess">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Message sent successfully!</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-toggle" id="chatToggle">
+            <i class="fas fa-comment-dots"></i>
+            <span class="chat-badge">1</span>
+        </button>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <i class="fas fa-robot"></i>
+                    <div>
+                        <h4>NEXUS Assistant</h4>
+                        <span>Online</span>
+                    </div>
+                </div>
+                <button class="chat-close" id="chatClose"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="chat-msg bot">
+                    <div class="msg-avatar"><i class="fas fa-robot"></i></div>
+                    <div class="msg-content">
+                        <p>👋 Hello! How can I help you today?</p>
+                        <span class="msg-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-options">
+                <button class="chat-opt" data-msg="Book Appointment">📅 Book Appointment</button>
+                <button class="chat-opt" data-msg="Emergency Help">🚑 Emergency Help</button>
+                <button class="chat-opt" data-msg="Find a Doctor">👨‍⚕️ Find a Doctor</button>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Type your message..." />
+                <button class="chat-send" id="chatSend"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-modern">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">✦</span>
+                        NEXUS<span>Health</span>
+                    </a>
+                    <p>Redefining healthcare with compassion, innovation, and excellence.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#departments">Departments</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Emergency</a></li>
+                        <li><a href="#services">Cardiology</a></li>
+                        <li><a href="#services">Orthopedics</a></li>
+                        <li><a href="#services">Maternity</a></li>
+                        <li><a href="#services">Neurology</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Connected</h4>
+                    <p>Subscribe for health tips and updates</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email" required />
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NEXUS Healthcare. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
